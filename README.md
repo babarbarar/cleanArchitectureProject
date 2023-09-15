@@ -11,11 +11,11 @@ Musts:
 
 Up server:
 - `npx nodemon src/main.ts`
-- 
 
 # Problems faced during development:
 
 Cannot find module 'express':
     - `npm i --save-dev @types/express` resolve it!
+
 Failed to start process, "ts-node" exec not found:
     - `npm install -g ts-node`
