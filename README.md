@@ -2,15 +2,18 @@
 
 Musts:
 
-1 - Should not allow orders when invalid CPF;  
-2 - Should make an order with 3 products;  
-3 - Should make an order with 3 products using discount coupon;  
-4 - Should not make an order if product is not instock;  
+1 - Should not allow orders when invalid CPF;
+2 - Should make an order with 3 products;
+3 - Should make an order with 3 products using discount coupon;
+4 - Should not make an order if product do not existis;
 
 # How get it to work:
 
 Up server:
 - `npx nodemon src/main.ts`
+
+Run tests:
+- `npx jest`
 
 # Problems faced during development:
 
